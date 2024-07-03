@@ -68,7 +68,7 @@ jobs:
     - name: Create EC2 instance
       run: |
         INSTANCE_ID=$(aws ec2 run-instances \
-          --image-id ami-056a29f2eddc40520 \
+          --image-id ami-0f7712b35774b7da2 \
           --instance-type ${{ env.EC2_INSTANCE_TYPE }} \
           --key-name ${{ env.EC2_KEY_PAIR }} \
           --security-group-ids sg-07b5059125e8797e5 \

@@ -72,6 +72,7 @@ jobs:
           --instance-type ${{ env.EC2_INSTANCE_TYPE }} \
           --key-name ${{ env.EC2_KEY_PAIR }} \
           --security-group-ids sg-07b5059125e8797e5 \
+          --subnet-id subnet-009a55e7a3f6f1a72 \
           --query 'Instances[0].InstanceId' \
           --output text)
         echo "EC2_INSTANCE_ID=$INSTANCE_ID" >> $GITHUB_ENV

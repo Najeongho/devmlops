@@ -40,7 +40,3 @@ Spring Boot 기반의 마이크로서비스 예제입니다.
   - `Dockerfile`: 웹 서버 컨테이너 이미지 설정
   - `index.html`: 메인 페이지
   - `nginx.conf`: Nginx 설정 파일
-
-## 시작하기
-
-각 디렉토리의 README 파일을 참조하여 개별 컴포넌트를 설정하고 실행하세요.

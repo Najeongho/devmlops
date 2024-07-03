@@ -2,7 +2,7 @@ name: Build, Push, and Deploy
 
 on:
   push:
-    branches: [ dev ]
+    branches: [ main ]
 
 env:
   AWS_REGION: ap-northeast-2
